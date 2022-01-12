@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+main {
+    
+    height: 90vh;
+    
+
+    flex-direction: column;
+    
+}
+
+.main-section {
+    
+    
+    background-color: black;
+    color: white;
+    
+    overflow: hidden;
+    
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 5px;
+}
+
+.control {
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.user-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    gap: 10px 5px;
+    
+    padding: 15px 10px;
+    
+}
+
+.user {
+   position: relative;
+   
+   width: 240px;
+   height: 145px;
+}
+
+.label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(26, 26, 26, 0.5);
+    
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* TOOLBAR */
+
+.toolbar {
+   
+    background-color: #222222;
+    color: white;
+    
+    
+}
+
+.app-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    
+    
+}
+
+.app-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+
+.app-nav li {
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.bo {
+    display: inline-block;
+}
+
+.app-nav  i {
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 6px;
+    
+}
+
+.app-nav li.active, .app-nav li:hover {
+    color: #0F66E8;
+}
+
+.green {
+    color: #3B8019;
+}
+
+
+.nav-center {
+
+}
+
+.nav-right {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4A4A;
+    height: 100%;
+    min-width: 15%;
+    
+
+}
+
+.endmeeting {
+    
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    word-wrap: break-word;
+    
+
+
+}
+
+/* <i class="fa-solid fa-angle-up"></i> */
